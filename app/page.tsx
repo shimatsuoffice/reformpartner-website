@@ -1,4 +1,5 @@
-// top-page.tsx (仮のファイル名)
+// page.tsx (修正版)
+
 'use client';
 
 import Link from 'next/link';
@@ -286,7 +287,7 @@ return (
               </div>
               <div>
                 <h4 className="text-xl font-bold">リフォームパートナー</h4>
-                <p className="text-sm text-gray-400">投資家専門リフォーム</p>
+                <p className="text-sm text-gray-400">不動産投資家のDIY代行サービス</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
