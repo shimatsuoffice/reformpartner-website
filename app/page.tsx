@@ -384,12 +384,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="text-center mt-12">
-            <button 
-              className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all cursor-pointer"
-              style={{
-                backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80')`
-              }}
-            >
+            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all cursor-pointer">
               詳しいお問い合わせフォーム
             </button>
           </div>
