@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Pacifico } from "next/font/google"; // Geistフォントのimportを削除
+import { Pacifico } from "next/font/google";
 import "./globals.css";
+import "tailwindcss/tailwind.css"; // 強制追加
 
 const pacifico = Pacifico({
   weight: '400',
@@ -8,8 +9,6 @@ const pacifico = Pacifico({
   display: 'swap',
   variable: '--font-pacifico',
 });
-
-// Geistフォントの定義を削除
 
 export const metadata: Metadata = {
   title: "Readdy Site",
@@ -24,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body
-        className={`${pacifico.variable} antialiased`} // 使用するフォントをPacificoのみに修正
+        className={`${pacifico.variable} antialiased`}
       >
         {children}
       </body>
